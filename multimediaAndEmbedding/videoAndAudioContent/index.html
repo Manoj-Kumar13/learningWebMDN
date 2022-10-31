@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video and audio content</title>
+  </head>
+  <body>
+    <h1>Learning how to play with video and audio in HTML</h1>
+    <video height="300px" width="auto" type="video/mp4" controls>
+      <source src="./foodVideo.mp4" type="video/mp4" />
+      <track kind="subtitles" src="subtitles.vtt" srclang="en" label="English">
+      Oops! looks like, Your browser doesn't support this video format
+    </video>
+
+    <audio controls>
+      <source src="./song.mp3" type="audio/mp3" />
+      <p>Oops! looks like, Your browser doesn't support this audio format</p>
+    </audio>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedding Technologies</title>
+    <style>
+      iframe {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- doesn't work -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/g1wr0DfV73E"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <object
+      data="./sample-pdf.pdf"
+      type="application/pdf"
+      width="800"
+      height="600"
+    >
+      <p>
+        You don't have a PDF plugin, but you can
+        <a href="">download the PDF file. </a>
+      </p>
+    </object>
+  </body>
+</html>
