@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: orange;
+}
+
+a[title] {
+  font-size: 2em;
+  color: green;
+}
+
+a[href= "https://youtube.com"]
+{
+  color: red;
+  font-size: 3em;
+}
+
+a:hover {
+  all: unset;
+}
+
+p::first-line {
+  font-size: 20px;
+}
+
+article > p {
+  color: burlywood;
+  font-weight: bold;
+}
