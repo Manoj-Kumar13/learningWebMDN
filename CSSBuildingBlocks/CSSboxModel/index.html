@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>CSS Box Model</title>
+  </head>
+  <body>
+    <!-- inline-block use -->
+    <nav>
+      <ul class="links-list">
+        <li><a href="">Link one</a></li>
+        <li><a href="">Link two</a></li>
+        <li><a href="">Link three</a></li>
+      </ul>
+    </nav>   
+    <!-- block example -->
+    <h2>Block display example</h2>
+    <p>I am a paragraph. A short one.</p>
+    <ul>
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    <p>
+      I am another paragraph. Some of the <span class="block">words</span> have
+      been wrapped in a <span>span element</span>.
+    </p>
+    <!-- inline example -->
+    <h2>Inline display example</h2>
+    <p>
+      I am a paragraph. Some of the
+      <span class="span-inline">words</span> have been wrapped in a
+      <span class="span-inline">span element</span>.
+    </p>
+    <ul class="ul-inline">
+      <li>Item One</li>
+      <li>Item Two</li>
+      <li>Item Three</li>
+    </ul>
+    <p class="inline">I am a paragraph. A short one.</p>
+    <p class="inline">I am another paragraph. Also a short one.</p>
+    <!--The Box Model -->
+    <!-- standard box model -->
+    <div class="box-model standard">Standard box model</div>
+    <!-- alternative box model -->
+    <div class="box-model alternate">Alternative box model</div>
+    <!-- playing with border -->
+    <div class="container">
+      <div class="box">Change my borders.</div>
+    </div>
+    <!-- box model and inline boxes -->
+    <p>
+      I am a paragraph and this is a <span class="inline-box-span">span</span> inside that paragraph. A span is an inline element and so does not respect width and height.
+  </p>
+  <!-- display: inline-block -->
+  <p>
+    I am a paragraph and this is a <span class="inline-block-span">span</span> inside that paragraph. A span is an inline element and so does not respect width and height.
+</p> 
+  </body>
+</html>

@@ -1,0 +1,98 @@
+.links-list a {
+  background-color: rgb(179,57,81);
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+}
+
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #fff;
+}
+
+h2 {
+  color: red;
+}
+
+p,
+ul {
+  border: 2px solid rebeccapurple;
+  padding: 0.5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: 0.5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
+
+.span-inline,
+li {
+  border: 2px solid blue;
+}
+
+.ul-inline {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.box-model {
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+}
+
+.alternate {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  border-top: 5px dotted green;
+  border-right: 1px solid black;
+  border-bottom: 20px double rgb(23, 45, 145);
+}
+
+.box {
+  border: 1px solid red;
+  border-top-style: dotted;
+  border-right-width: 20px;
+  border-bottom-color: hotpink;
+}
+
+.inline-box-span {
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
+  background-color: lightblue;
+  border: 2px solid blue;
+}
+
+.inline-block-span {
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
+  background-color: lightblue;
+  border: 2px solid blue;
+  display: inline-block;
+}
