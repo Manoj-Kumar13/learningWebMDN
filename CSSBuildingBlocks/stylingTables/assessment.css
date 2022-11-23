@@ -1,0 +1,47 @@
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-top : 1px solid #999;
+    border-top : 1px solid #999;
+    border-bottom : 1px solid #999;
+  }
+  thead th:nth-child(1),tbody tr th:nth-child(1){
+    text-align: left;
+  }
+  thead th:nth-child(2){
+    text-align: right;
+  }
+  thead th:nth-child(3){
+    text-align: right;
+  }
+  thead th:nth-child(4){
+    text-align: left;
+  }
+  
+  th,td{
+    padding: 0.3em;
+  }
+  
+  tbody tr td:nth-child(2){
+    text-align: right;
+  }
+  
+  tbody tr td:nth-child(3){
+    text-align: right;
+  }
+  
+  tbody tr td:nth-child(4){
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(odd){
+    background-color: #eee;
+  }
+  
+  tfoot{
+    border-top: 1px solid #999;
+  }
+  
+  tfoot th{
+    text-align: right;
+  }
