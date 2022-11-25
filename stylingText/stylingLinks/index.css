@@ -1,0 +1,90 @@
+html {
+  margin: 0;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 0.625%;
+}
+
+h1 + .container > a {
+  flex: 1;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+.container a:link,
+.container a:visited,
+.container a:focus {
+  background: palegoldenrod;
+  color: black;
+}
+
+.container a:hover {
+  background: orange;
+}
+
+.container a:active {
+  background: darkred;
+  color: white;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.4;
+  width: 100%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437a16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+
+a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+
+a[href^="http"] {
+}
+
+a[href^="http"]::after {
+  content: "";
+  background: url(./external-link.png) no-repeat 100%;
+  background-size: 25px 25px;
+  padding-left: 25px;
+}
