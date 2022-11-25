@@ -1,0 +1,20 @@
+h1 {
+  text-shadow: 2px 2px 2px red;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1+p{
+    letter-spacing: 4px;    
+    text-decoration: none;
+}
+
+p {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: underline overline line-through wavy;
+}
